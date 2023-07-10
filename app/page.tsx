@@ -10,7 +10,11 @@ import { useGearStorage } from "@/hooks/gearStorage";
 import { getAccessoryImage, getEngravingImage } from "@/common/imageUtils";
 export default function Home() {
   const { gearStorage, doRemoveAccessory } = useGearStorage();
+  const alltypes: AccessoryNames[] = [];
   const dataSource = gearStorage.map((item, index) => {
+    if (!alltypes.includes(item.type)) {
+      alltypes.push(item.type);
+    }
     return {
       ...item,
       key: index,
@@ -38,6 +42,11 @@ export default function Home() {
         );
       },
       sorter: ({ type: type1 }, { type: type2 }) => type1.localeCompare(type2),
+      filters: alltypes.map((name) => ({
+        text: name,
+        value: name,
+      })),
+      onFilter: (value, record) => record.type == value,
     },
     {
       title: "effect1Name",
