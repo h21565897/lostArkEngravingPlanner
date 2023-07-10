@@ -12,12 +12,7 @@ import {
   Select,
   Space,
 } from "antd";
-import AbilityStone from "@/assets/abilityStone.png";
 import Image from "next/image";
-import Earring from "@/assets/earring.png";
-import NeckLance from "@/assets/necklance.png";
-import Ring from "@/assets/ring.png";
-import Engraving from "@/assets/engraving.png";
 import { useAppSelector } from "@/hooks";
 import { useGearStorage } from "@/hooks/gearStorage";
 import {
@@ -26,6 +21,7 @@ import {
   effectNames,
   engravingNames,
 } from "@/types";
+import { getAccessoryImage } from "@/common/imageUtils";
 
 const engravingOptions = engravingNames.map((item) => {
   return {
@@ -180,29 +176,39 @@ function Page({
             <Image
               width={50}
               height={50}
-              src={AbilityStone}
+              src={getAccessoryImage("AbilityStone")}
               alt="Example"
             ></Image>
           </Radio>
           <Radio value={"Earring"}>
-            <Image width={50} height={50} src={Earring} alt="Example"></Image>
+            <Image
+              width={50}
+              height={50}
+              src={getAccessoryImage("Earring")}
+              alt="Example"
+            ></Image>
           </Radio>
           <Radio value={"NeckLance"}>
             <Image
               width={50}
               height={100}
-              src={NeckLance}
+              src={getAccessoryImage("NeckLance")}
               alt="Example"
             ></Image>
           </Radio>
           <Radio value={"Ring"}>
-            <Image width={50} height={50} src={Ring} alt="Example"></Image>
+            <Image
+              width={50}
+              height={50}
+              src={getAccessoryImage("Ring")}
+              alt="Example"
+            ></Image>
           </Radio>
           <Radio value={"Engraving"}>
             <Image
               width={50}
               height={50}
-              src={Engraving}
+              src={getAccessoryImage("Engraving")}
               alt="I am engraving"
             ></Image>
           </Radio>

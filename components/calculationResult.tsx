@@ -6,7 +6,6 @@ import {
   CalculationResultType,
 } from "@/types";
 import React, { useEffect, useState } from "react";
-import defaultSlot from "@/assets/defaultSlot.png";
 import { Button, Divider, Pagination, Popover } from "antd";
 import Image from "next/image";
 import { getAccessoryImage, getEngravingImage } from "@/common/imageUtils";
