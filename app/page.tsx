@@ -37,6 +37,7 @@ export default function Home() {
           </>
         );
       },
+      sorter: ({ type: type1 }, { type: type2 }) => type1.localeCompare(type2),
     },
     {
       title: "effect1Name",
