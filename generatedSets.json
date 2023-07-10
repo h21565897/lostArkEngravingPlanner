@@ -1,0 +1,1652 @@
+{
+    "someEarrings": [
+        {
+            "id": 0,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 263
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 1,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 64
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 2,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 70
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 3,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 247
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 4,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 267
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 5,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 271
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 6,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 125
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 7,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 70
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 8,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 26
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 9,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 136
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 10,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 61
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 11,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 142
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 12,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Hit Master",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 287
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 13,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 221
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 14,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "PeaceMaker",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 130
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 15,
+            "engraving1": {
+                "name": "PeaceMaker",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 5
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 16,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 277
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 17,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 7
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 18,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 195
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        },
+        {
+            "id": 19,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 216
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 2
+        }
+    ],
+    "someRings": [
+        {
+            "id": 0,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 263
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 1,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 64
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 2,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 70
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 3,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 247
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 4,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 267
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 5,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 271
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 6,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 125
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 7,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 70
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 8,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 26
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 9,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 136
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 10,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 61
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 11,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 142
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 12,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Hit Master",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 287
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 13,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 221
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 14,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "PeaceMaker",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 130
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 15,
+            "engraving1": {
+                "name": "PeaceMaker",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 5
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 16,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 277
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 17,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 7
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 18,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 195
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        },
+        {
+            "id": 19,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 216
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 3
+        }
+    ],
+    "someNecklaces": [
+        {
+            "id": 0,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 263
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 263
+            },
+            "type": 1
+        },
+        {
+            "id": 1,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 64
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 64
+            },
+            "type": 1
+        },
+        {
+            "id": 2,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 70
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 70
+            },
+            "type": 1
+        },
+        {
+            "id": 3,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 247
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 247
+            },
+            "type": 1
+        },
+        {
+            "id": 4,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 267
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 267
+            },
+            "type": 1
+        },
+        {
+            "id": 5,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 271
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 271
+            },
+            "type": 1
+        },
+        {
+            "id": 6,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 125
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 125
+            },
+            "type": 1
+        },
+        {
+            "id": 7,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 70
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 70
+            },
+            "type": 1
+        },
+        {
+            "id": 8,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 26
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 26
+            },
+            "type": 1
+        },
+        {
+            "id": 9,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 136
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 136
+            },
+            "type": 1
+        },
+        {
+            "id": 10,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 61
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 61
+            },
+            "type": 1
+        },
+        {
+            "id": 11,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 142
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 142
+            },
+            "type": 1
+        },
+        {
+            "id": 12,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Hit Master",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 287
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 287
+            },
+            "type": 1
+        },
+        {
+            "id": 13,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 221
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 221
+            },
+            "type": 1
+        },
+        {
+            "id": 14,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "PeaceMaker",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 130
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 130
+            },
+            "type": 1
+        },
+        {
+            "id": 15,
+            "engraving1": {
+                "name": "PeaceMaker",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 5
+            },
+            "effect2": {
+                "name": "crit",
+                "value": 5
+            },
+            "type": 1
+        },
+        {
+            "id": 16,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "crit",
+                "value": 277
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 277
+            },
+            "type": 1
+        },
+        {
+            "id": 17,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 7
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 7
+            },
+            "type": 1
+        },
+        {
+            "id": 18,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 195
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 195
+            },
+            "type": 1
+        },
+        {
+            "id": 19,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 6
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 3
+            },
+            "effect1": {
+                "name": "spec",
+                "value": 216
+            },
+            "effect2": {
+                "name": "spec",
+                "value": 216
+            },
+            "type": 1
+        }
+    ],
+    "someAbilityStones": [
+        {
+            "id": 0,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 1,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 2,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 3,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 4,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 5,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 6,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 7,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 8,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 9,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 10,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 11,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 12,
+            "engraving1": {
+                "name": "Adrenaline",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Hit Master",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 13,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 14,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "PeaceMaker",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 15,
+            "engraving1": {
+                "name": "PeaceMaker",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 16,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Grudge",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 17,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Adrenaline",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 18,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        },
+        {
+            "id": 19,
+            "engraving1": {
+                "name": "Keen Blunt Weapon",
+                "nodes": 9
+            },
+            "engraving2": {
+                "name": "Cursed Doll",
+                "nodes": 7
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 0
+        }
+    ],
+    "someEngravings": [
+        {
+            "id": 0,
+            "engraving1": {
+                "name": "Grudge",
+                "nodes": 12
+            },
+            "engraving2": {
+                "name": "stub",
+                "nodes": 0
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 4
+        },
+        {
+            "id": 1,
+            "engraving1": {
+                "name": "Hit Master",
+                "nodes": 12
+            },
+            "engraving2": {
+                "name": "stub",
+                "nodes": 0
+            },
+            "effect1": {
+                "name": "stub",
+                "value": 0
+            },
+            "effect2": {
+                "name": "stub",
+                "value": 0
+            },
+            "type": 4
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+[ 'Grudge', 'stub' ] [ 'Grudge', 'stub' ] [ 'crit', 'spec', 'stub' ] [ 'stub' ]
+[
+  {
+    engraving1: { name: 'Grudge', nodes: 6 },
+    engraving2: { name: 'stub', nodes: 3 },
+    effect1: { name: 'crit', value: 300 },
+    effect2: { name: 'stub', value: 0 },
+    type: 3
+  },
+  {
+    engraving1: { name: 'Grudge', nodes: 6 },
+    engraving2: { name: 'stub', nodes: 3 },
+    effect1: { name: 'spec', value: 300 },
+    effect2: { name: 'stub', value: 0 },
+    type: 3
+  },
+  {
+    engraving1: { name: 'stub', nodes: 6 },
+    engraving2: { name: 'Grudge', nodes: 3 },
+    effect1: { name: 'crit', value: 300 },
+    effect2: { name: 'stub', value: 0 },
+    type: 3
+  },
+  {
+    engraving1: { name: 'stub', nodes: 6 },
+    engraving2: { name: 'Grudge', nodes: 3 },
+    effect1: { name: 'spec', value: 300 },
+    effect2: { name: 'stub', value: 0 },
+    type: 3
+  }
+]

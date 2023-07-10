@@ -1,0 +1,476 @@
+targetEngravingMap Map(6) {
+  'Grudge' => 15,
+  'Hit Master' => 15,
+  'Keen Blunt Weapon' => 15,
+  'PeaceMaker' => 15,
+  'Cursed Doll' => 15,
+  'Adrenaline' => 0
+}
+targetEffectMap Map(2) { 'crit' => 100, 'spec' => 100 }
+resultSet [
+  {
+    id: 0,
+    engraving1: { name: 'Keen Blunt Weapon', nodes: 6 },
+    engraving2: { name: 'Keen Blunt Weapon', nodes: 3 },
+    effect1: { name: 'crit', value: 263 },
+    effect2: { name: 'spec', value: 263 },
+    type: 1
+  },
+  {
+    id: 2,
+    engraving1: { name: 'Hit Master', nodes: 6 },
+    engraving2: { name: 'Grudge', nodes: 3 },
+    effect1: { name: 'crit', value: 70 },
+    effect2: { name: 'stub', value: 0 },
+    type: 2
+  },
+  {
+    id: 3,
+    engraving1: { name: 'Keen Blunt Weapon', nodes: 6 },
+    engraving2: { name: 'Cursed Doll', nodes: 3 },
+    effect1: { name: 'spec', value: 247 },
+    effect2: { name: 'stub', value: 0 },
+    type: 2
+  },
+  {
+    id: 3,
+    engraving1: { name: 'Keen Blunt Weapon', nodes: 6 },
+    engraving2: { name: 'Cursed Doll', nodes: 3 },
+    effect1: { name: 'spec', value: 247 },
+    effect2: { name: 'stub', value: 0 },
+    type: 3
+  },
+  {
+    id: 15,
+    engraving1: { name: 'PeaceMaker', nodes: 6 },
+    engraving2: { name: 'Keen Blunt Weapon', nodes: 3 },
+    effect1: { name: 'spec', value: 5 },
+    effect2: { name: 'stub', value: 0 },
+    type: 3
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    id: 0,
+    engraving1: { name: 'Grudge', nodes: 12 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 4
+  },
+  {
+    id: 1,
+    engraving1: { name: 'Hit Master', nodes: 12 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 4
+  }
+]
+targetEngravingNames Map(2) { 'PeaceMaker' => 9, 'Cursed Doll' => 9 }
+targetEffectNames Map(0) {}
+[ 'PeaceMaker', 'Cursed Doll', 'stub' ] [ 'PeaceMaker', 'Cursed Doll', 'stub' ] [ 'stub' ] [ 'stub' ]
+abilityStoneSet [
+  {
+    engraving1: { name: 'PeaceMaker', nodes: 10 },
+    engraving2: { name: 'Cursed Doll', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'PeaceMaker', nodes: 10 },
+    engraving2: { name: 'stub', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'Cursed Doll', nodes: 10 },
+    engraving2: { name: 'PeaceMaker', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'Cursed Doll', nodes: 10 },
+    engraving2: { name: 'stub', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 10 },
+    engraving2: { name: 'PeaceMaker', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 10 },
+    engraving2: { name: 'Cursed Doll', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  }
+]
+failed same id
+[
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'PeaceMaker', nodes: 10 },
+    engraving2: { name: 'Cursed Doll', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  }
+]
+failed same id
+[
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'PeaceMaker', nodes: 10 },
+    engraving2: { name: 'Cursed Doll', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  }
+]
+failed number of accessories
+[
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'PeaceMaker', nodes: 10 },
+    engraving2: { name: 'Cursed Doll', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  }
+]
+failed same id
+[
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'Cursed Doll', nodes: 10 },
+    engraving2: { name: 'PeaceMaker', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  }
+]
+failed same id
+[
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'Cursed Doll', nodes: 10 },
+    engraving2: { name: 'PeaceMaker', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  }
+]
+failed number of accessories
+[
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'Cursed Doll', nodes: 10 },
+    engraving2: { name: 'PeaceMaker', nodes: 10 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 0
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  },
+  {
+    engraving1: { name: 'stub', nodes: 0 },
+    engraving2: { name: 'stub', nodes: 0 },
+    effect1: { name: 'stub', value: 0 },
+    effect2: { name: 'stub', value: 0 },
+    type: 5
+  }
+]
+3690245
