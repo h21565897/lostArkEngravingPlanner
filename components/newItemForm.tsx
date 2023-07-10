@@ -243,7 +243,23 @@ function Page({
         </Form.Item>
       </div>
       <div className="flex ">
-        <Form.Item name={["effect2", "name"]}>
+        <Form.Item
+          name={["effect2", "name"]}
+          rules={[
+            curFieldTemplate.effect1 && curFieldTemplate.effect2
+              ? ({ getFieldValue }) => ({
+                  validator(_, value) {
+                    if (getFieldValue(["effect1", "name"]) == value) {
+                      return Promise.reject(
+                        new Error("cannot have same effect")
+                      );
+                    }
+                    return Promise.resolve();
+                  },
+                })
+              : {},
+          ]}
+        >
           <Select
             defaultValue="Select one attribute"
             options={[
