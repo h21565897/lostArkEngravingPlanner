@@ -5,13 +5,9 @@ import { Button, Divider, Modal } from "antd";
 import Table, { ColumnsType, TablePaginationConfig } from "antd/es/table";
 import Image from "next/image";
 import { useState } from "react";
-import Earring from "@/assets/earring.png";
-import Necklance from "@/assets/necklance.png";
-import Ring from "@/assets/ring.png";
-import Engraving from "@/assets/engraving.png";
-import AbilityStone from "@/assets/abilityStone.png";
 import { AccessoryNames } from "@/types";
 import { useGearStorage } from "@/hooks/gearStorage";
+import { getAccessoryImage, getEngravingImage } from "@/common/imageUtils";
 export default function Home() {
   const { gearStorage, doRemoveAccessory } = useGearStorage();
   const dataSource = gearStorage.map((item, index) => {
@@ -24,26 +20,20 @@ export default function Home() {
     {
       title: "type",
       key: "type",
-      render: (_, { type }) => {
+      render: (_, { type, engraving1 }) => {
         console.log(type);
         return (
           <>
-            {type === AccessoryNames.Earring ? (
-              <Image src={Earring} alt="earring" width={50} height={50} />
-            ) : type === AccessoryNames.NeckLance ? (
-              <Image src={Necklance} alt="necklance" width={50} height={50} />
-            ) : type === AccessoryNames.Ring ? (
-              <Image src={Ring} alt="ring" width={50} height={50} />
-            ) : type === AccessoryNames.Engraving ? (
-              <Image src={Engraving} alt="engraving" width={50} height={50} />
-            ) : type === AccessoryNames.AbilityStone ? (
-              <Image
-                src={AbilityStone}
-                alt="abilityStone"
-                width={50}
-                height={50}
-              />
-            ) : null}
+            <Image
+              src={
+                type == AccessoryNames.Engraving
+                  ? getEngravingImage(engraving1.name)
+                  : getAccessoryImage(type)
+              }
+              alt="example"
+              width={50}
+              height={50}
+            ></Image>
           </>
         );
       },
