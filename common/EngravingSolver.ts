@@ -38,6 +38,13 @@ const accessoryStub: AccessoryType = {
   type: AccessoryNames.Stub,
 };
 const accessoryStubSet: AccessoryType[] = [accessoryStub];
+export type GenerateTempalteType = {
+  necklance: EquipStats;
+  earring: EquipStats;
+  ring: EquipStats;
+  abilityStone: EquipStats;
+  engraving: EquipStats;
+};
 export function solveEngraving({
   targetEngravings,
   targetEffects,
@@ -51,6 +58,7 @@ export function solveEngraving({
   ignoreNecklace = 0,
   ignoreEarring = 0,
   ignoreEngraving = 0,
+  generateTemplates,
 }: {
   targetEngravings: EngravingType[];
   targetEffects: EffectType[];
@@ -64,7 +72,17 @@ export function solveEngraving({
   ignoreNecklace?: number;
   ignoreEarring?: number;
   ignoreEngraving?: number;
+  generateTemplates?: GenerateTempalteType;
 }): CalculationResultType[] {
+  generateTemplates = {
+    necklance: neckLanceStat,
+    earring: earringStat,
+    ring: ringStat,
+    abilityStone: abilityStoneStat,
+    engraving: engravingStat,
+    ...generateTemplates,
+  };
+  console.log("inside solver", generateTemplates);
   let targetEngravingMap = new Map<string, number>();
   let targetEffectMap = new Map<string, number>();
   let currentEngravingMap = new Map<string, number>();
@@ -151,7 +169,8 @@ export function solveEngraving({
       ignoreRing,
       ignoreNecklace,
       ignoreEarring,
-      ignoreEngraving
+      ignoreEngraving,
+      generateTemplates
     );
     results.push({
       mainSet: currentSet,

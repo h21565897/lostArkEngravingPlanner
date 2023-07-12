@@ -39,7 +39,17 @@ const GearDetails = ({ gear }: { gear: AccessoryType }) => (
     )}
   </div>
 );
-
+const AdditionalStats = ({ quantity }: { quantity: number }) => {
+  console.log("quantity", quantity);
+  const color = quantity < 0 ? " text-green-500" : "text-red-500";
+  const sign = quantity < 0 ? "" : "+";
+  return (
+    <h4 className={`${color} mx-2 inline`}>
+      {sign}
+      {quantity}
+    </h4>
+  );
+};
 function Page({ gearSet, calculationTargets }: Props) {
   const [mainSet, setMainSet] = useState(gearSet.mainSet);
   useEffect(() => {
@@ -84,7 +94,7 @@ function Page({ gearSet, calculationTargets }: Props) {
   });
   return (
     <div className="flex w-full px-4 py-4 ">
-      <div>
+      <div className="flex flex-col items-center">
         {mainSet.map((item, index) => (
           <Popover
             key={index}
@@ -92,17 +102,19 @@ function Page({ gearSet, calculationTargets }: Props) {
             content={<GearDetails gear={item} />}
             trigger={["click", "hover"]}
           >
-            <Image
-              className="my-2"
-              width={50}
-              height={50}
-              src={
-                item.type == AccessoryNames.Engraving
-                  ? getEngravingImage(item.engraving1.name)
-                  : getAccessoryImage(item.type)
-              }
-              alt=""
-            ></Image>
+            <div className="w-12 h-12 ">
+              <Image
+                className="my-2"
+                width={50}
+                height={50}
+                src={
+                  item.type == AccessoryNames.Engraving
+                    ? getEngravingImage(item.engraving1.name)
+                    : getAccessoryImage(item.type)
+                }
+                alt=""
+              ></Image>
+            </div>
           </Popover>
         ))}
       </div>
@@ -115,22 +127,24 @@ function Page({ gearSet, calculationTargets }: Props) {
               content={<GearDetails gear={item} />}
               trigger={["click", "hover"]}
             >
-              <Image
-                className="my-2"
-                width={50}
-                height={50}
-                src={
-                  item.type == AccessoryNames.Engraving
-                    ? getEngravingImage(item.engraving1.name)
-                    : getAccessoryImage(item.type)
-                }
-                alt=""
-              ></Image>
+              <div className="w-12 h-12">
+                <Image
+                  className="my-2"
+                  width={50}
+                  height={50}
+                  src={
+                    item.type == AccessoryNames.Engraving
+                      ? getEngravingImage(item.engraving1.name)
+                      : getAccessoryImage(item.type)
+                  }
+                  alt=""
+                ></Image>
+              </div>
             </Popover>
           ))}
           <Button
             type="default"
-            className="my-2"
+            className="my-5"
             onClick={() => {
               const updatedGearSet = gearSet.mainSet.map((item, index) => {
                 if (item.type == AccessoryNames.Stub) {
@@ -159,12 +173,15 @@ function Page({ gearSet, calculationTargets }: Props) {
             <h5 className="inline text-white">
               {item.name}:{item.value}
             </h5>
-            <h5 className="inline text-red-700">
-              +
-              {item.value -
-                (calculationTargets.engravings.find(
-                  (engraving) => engraving.name == item.name
-                )?.nodes || 0)}
+            <h5 className="inline">
+              <AdditionalStats
+                quantity={
+                  item.value -
+                  (calculationTargets.engravings.find(
+                    (engraving) => engraving.name == item.name
+                  )?.nodes || 0)
+                }
+              ></AdditionalStats>
             </h5>
           </div>
         ))}

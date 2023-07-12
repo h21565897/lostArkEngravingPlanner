@@ -98,25 +98,21 @@ function Page({
       effect1: {
         //@ts-ignore
         name: values.effect1?.name || "stub",
-
         value: values.effect1?.value || 0,
       },
       effect2: {
         //@ts-ignore
         name: values.effect2?.name || "stub",
-
         value: values.effect2?.value || 0,
       },
       engraving1: {
         //@ts-ignore
         name: values.engraving1?.name || "stub",
-
         nodes: values.engraving1?.value || 0,
       },
       engraving2: {
         //@ts-ignore
         name: values.engraving2?.name || "stub",
-
         nodes: values.engraving2?.value || 0,
       },
     };

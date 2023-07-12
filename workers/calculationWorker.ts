@@ -1,4 +1,4 @@
-import { solveEngraving } from "@/common/EngravingSolver";
+import { GenerateTempalteType, solveEngraving } from "@/common/EngravingSolver";
 import {
   AbilityStoneType,
   AccessoryNames,
@@ -404,13 +404,20 @@ self.onmessage = (
   event: MessageEvent<{
     targetEffects: EffectType[];
     targetEngravings: EngravingType[];
-    ignoreSlots: GearType[];
+    customSlots: {
+      name: AccessoryNames;
+      nums: number;
+      effect1: number;
+      effect2: number;
+      engraving1: number;
+      engraving2: number;
+    }[];
     accessories: AccessoryType[];
   }>
 ) => {
   const { data } = event;
   console.log(data);
-  const { targetEffects, targetEngravings, ignoreSlots, accessories } = data;
+  const { targetEffects, targetEngravings, customSlots, accessories } = data;
   const abilityStoneSet: AbilityStoneType[] = [];
   const necklanceSet: NecklanceType[] = [];
   const engravingSet: EngravingAccessoryType[] = [];
@@ -435,32 +442,74 @@ self.onmessage = (
       ringSet.push(accessory as RingType);
     }
   }
-  for (const ignoreSlot of ignoreSlots) {
-    if (ignoreSlot == "abilityStone") {
-      ignoreAbilityStone += 1;
-    } else if (ignoreSlot == "necklance") {
-      ignoreNecklace += 1;
-    } else if (ignoreSlot == "engraving1" || ignoreSlot == "engraving2") {
-      ignoreEngraving += 1;
-    } else if (ignoreSlot == "earring1" || ignoreSlot == "earring2") {
-      ignoreEarring += 1;
-    } else if (ignoreSlot == "ring1" || ignoreSlot == "ring2") {
-      ignoreRing += 1;
+  let generateTemplates: GenerateTempalteType = {} as GenerateTempalteType;
+  for (const customSlot of customSlots) {
+    if (customSlot.name === AccessoryNames.AbilityStone) {
+      generateTemplates.abilityStone = {
+        engraving1: customSlot.engraving1,
+        engraving2: customSlot.engraving2,
+        effect1: customSlot.effect1,
+        effect2: customSlot.effect2,
+        type: AccessoryNames.AbilityStone,
+      };
+      ignoreAbilityStone = customSlot.nums;
+    }
+    if (customSlot.name === AccessoryNames.NeckLance) {
+      generateTemplates.necklance = {
+        engraving1: customSlot.engraving1,
+        engraving2: customSlot.engraving2,
+        effect1: customSlot.effect1,
+        effect2: customSlot.effect2,
+        type: AccessoryNames.NeckLance,
+      };
+      ignoreNecklace = customSlot.nums;
+    }
+    if (customSlot.name === AccessoryNames.Earring) {
+      generateTemplates.earring = {
+        engraving1: customSlot.engraving1,
+        engraving2: customSlot.engraving2,
+        effect1: customSlot.effect1,
+        effect2: customSlot.effect2,
+        type: AccessoryNames.Earring,
+      };
+      ignoreEarring = customSlot.nums;
+    }
+    if (customSlot.name === AccessoryNames.Ring) {
+      generateTemplates.ring = {
+        engraving1: customSlot.engraving1,
+        engraving2: customSlot.engraving2,
+        effect1: customSlot.effect1,
+        effect2: customSlot.effect2,
+        type: AccessoryNames.Ring,
+      };
+
+      ignoreRing = customSlot.nums;
+    }
+    if (customSlot.name === AccessoryNames.Engraving) {
+      generateTemplates.engraving = {
+        engraving1: customSlot.engraving1,
+        engraving2: customSlot.engraving2,
+        effect1: customSlot.effect1,
+        effect2: customSlot.effect2,
+        type: AccessoryNames.Engraving,
+      };
+      ignoreEngraving = customSlot.nums;
     }
   }
-  console.log(targetEffects);
-  console.log(targetEngravings);
-  console.log(abilityStoneSet);
-  console.log(ringSet);
-  console.log(necklanceSet);
-  console.log(earringSet);
-  console.log(engravingSet);
-  console.log(ignoreAbilityStone);
-  console.log(ignoreRing);
-  console.log(ignoreNecklace);
-  console.log(ignoreEarring);
-  console.log(ignoreEngraving);
-
+  console.log("calculating params....");
+  console.log("targetEffects", targetEffects);
+  console.log("targetEngravings", targetEngravings);
+  console.log("abilityStoneSet", abilityStoneSet);
+  console.log("ringSet", ringSet);
+  console.log("necklanceSet", necklanceSet);
+  console.log("earringSet", earringSet);
+  console.log("engravingSet", engravingSet);
+  console.log("ignoreAbilityStone", ignoreAbilityStone);
+  console.log("ignoreRing", ignoreRing);
+  console.log("ignoreNecklace", ignoreNecklace);
+  console.log("ignoreEarring", ignoreEarring);
+  console.log("ignoreEngraving", ignoreEngraving);
+  console.log("generateTempaltes", generateTemplates);
   let result = solveEngraving({
     targetEngravings,
     targetEffects,
@@ -474,6 +523,7 @@ self.onmessage = (
     ignoreNecklace,
     ignoreEarring,
     ignoreEngraving,
+    generateTemplates,
   });
   console.log(result);
 

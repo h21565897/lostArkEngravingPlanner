@@ -77,5 +77,12 @@ export type CalculationResultType = {
 export type CalculationFormValueType = {
   effects: { name: string; value: number }[];
   engravings: { name: string; nodes: number }[];
-  ignoreSlots: string[];
+  customSlots: {
+    name: string;
+    nums: number;
+    engraving1: number;
+    engraving2: number;
+    effect1: number;
+    effect2: number;
+  }[];
 };
