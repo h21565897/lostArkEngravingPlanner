@@ -60,7 +60,7 @@ function Page() {
             NewStorage
           </Button>
           <Button type="primary" onClick={syncToFile}>
-            SyncStorage
+            OpenStorage
           </Button>
           {fileHandle ? (
             <Button
@@ -72,16 +72,11 @@ function Page() {
           ) : null}
           {isSaving ? <Spin></Spin> : null}
         </div>
-        {pathname != "/" ? null : (
+        {pathname == "/" ? (
           <Button type="primary" className="mr-2" onClick={showModal}>
             Add New Gear
           </Button>
-        )}
-        {pathname != "/calculates" ? null : (
-          <Button type="primary" className="mr-2" onClick={showModal}>
-            Add New Gear
-          </Button>
-        )}
+        ) : null}
       </div>
       <Modal forceRender open={visible} footer={null} onCancel={hideModal}>
         <NewItemForm></NewItemForm>

@@ -407,7 +407,7 @@ function Page({
                           }
                           min={1}
                           className="w-36"
-                          placeholder="effect1 max"
+                          placeholder="effect1 value"
                         ></InputNumber>
                       </Form.Item>
                       <Form.Item
@@ -426,7 +426,7 @@ function Page({
                           }
                           min={1}
                           className="w-36"
-                          placeholder="effect2 max"
+                          placeholder="effect2 value"
                         ></InputNumber>
                       </Form.Item>
                     </div>
@@ -447,7 +447,7 @@ function Page({
                               ?.engraving1
                           }
                           className="w-36"
-                          placeholder="engraving1 max"
+                          placeholder="engraving1 value"
                         ></InputNumber>
                       </Form.Item>
                       <Form.Item
@@ -466,7 +466,7 @@ function Page({
                           }
                           min={1}
                           className="w-36"
-                          placeholder="engraving2 max"
+                          placeholder="engraving2 value"
                         ></InputNumber>
                       </Form.Item>
                     </div>
