@@ -9,7 +9,7 @@ const initialState: {
   calculationTarget: {
     effects: [],
     engravings: [],
-    ignoreSlots: [],
+    customSlots: [],
   },
 };
 export const calculationResultSlice = createSlice({
