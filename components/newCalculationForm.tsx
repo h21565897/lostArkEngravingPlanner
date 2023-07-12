@@ -351,6 +351,7 @@ function Page({
                             message: "Please choose a slot!",
                           },
                         ]}
+                        tooltip="t1"
                       >
                         <Select
                           defaultValue="Select one slot"
@@ -395,7 +396,9 @@ function Page({
                         name={[name, "effect1"]}
                         rules={[
                           {
-                            required: true,
+                            required:
+                              gearTemplates?.[customSlotStats[name]]?.template
+                                ?.effect1 ?? true,
                             message: "Please input valid value!",
                           },
                         ]}
@@ -414,7 +417,9 @@ function Page({
                         name={[name, "effect2"]}
                         rules={[
                           {
-                            required: true,
+                            required:
+                              gearTemplates?.[customSlotStats[name]]?.template
+                                ?.effect2 ?? true,
                             message: "Please input valid value!",
                           },
                         ]}
@@ -435,7 +440,9 @@ function Page({
                         name={[name, "engraving1"]}
                         rules={[
                           {
-                            required: true,
+                            required:
+                              gearTemplates?.[customSlotStats[name]]?.template
+                                ?.engraving1 ?? true,
                             message: "Please input valid value!",
                           },
                         ]}
@@ -454,7 +461,9 @@ function Page({
                         name={[name, "engraving2"]}
                         rules={[
                           {
-                            required: true,
+                            required:
+                              gearTemplates?.[customSlotStats[name]]?.template
+                                ?.engraving2 ?? true,
                             message: "Please input valid value!",
                           },
                         ]}
